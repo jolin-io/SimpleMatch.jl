@@ -1,7 +1,14 @@
 SimpleMatch
 ===========
+[![Build Status](https://github.com/schlichtanders/SimpleMatch.jl/workflows/CI/badge.svg)](https://github.com/schlichtanders/SimpleMatch.jl/actions)
+[![Coverage](https://codecov.io/gh/schlichtanders/SimpleMatch.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/schlichtanders/SimpleMatch.jl)
 
-Load it with
+Install with
+```julia
+using Pkg
+pkg"add SimpleMatch"
+```
+and load it
 ```
 using SimpleMatch
 ```
@@ -9,9 +16,9 @@ which gives you access to the one and only macro of this package ``@match``.
 
 With match you can define local dispatch, i.e. you can rewrite
 ```julia
-mydescriptivefunctionname(a::Int) = a + 2
-mydescriptivefunctionname(a::String) = a * "!"
-mydescriptivefunctionname("hi")  # "hi!""
+myhelperfunctionname(a::Int) = a + 2
+myhelperfunctionname(a::String) = a * "!"
+myhelperfunctionname("hi")  # "hi!""
 ```
 as
 ```julia
@@ -41,4 +48,4 @@ You may also like
 As the name suggests, this is a super minimal version of inline matching. I think it especially useful because of its
 simplicity. It won't give you any heavy dependency (excluding documentation the ``@match`` macro is only 15 lines long).
 
-On the other hand, if you want something more flexible, more powerful, check out https://github.com/kmsquire/Match.jl. 
+On the other hand, if you want something more flexible, more powerful, check out https://github.com/kmsquire/Match.jl.
