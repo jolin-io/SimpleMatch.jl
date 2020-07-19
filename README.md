@@ -14,6 +14,9 @@ using SimpleMatch
 ```
 which gives you access to the one and only macro of this package ``@match``.
 
+Usage
+-----
+
 With match you can define local dispatch, i.e. you can rewrite
 ```julia
 myhelperfunctionname(a::Int) = a + 2
