@@ -6,8 +6,6 @@ SimpleMatch
 Install with
 ```julia
 using Pkg
-pkg"registry add https://github.com/JuliaRegistries/General"  # central julia registry
-pkg"registry add https://github.com/schlichtanders/SchlichtandersJuliaRegistry.jl"  # custom registry
 pkg"add SimpleMatch"
 ```
 and load it
