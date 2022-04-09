@@ -1,7 +1,7 @@
 SimpleMatch
 ===========
-[![Build Status](https://github.com/schlichtanders/SimpleMatch.jl/workflows/CI/badge.svg)](https://github.com/schlichtanders/SimpleMatch.jl/actions)
-[![Coverage](https://codecov.io/gh/schlichtanders/SimpleMatch.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/schlichtanders/SimpleMatch.jl)
+[![Build Status](https://github.com/jolin-io/SimpleMatch.jl/workflows/CI/badge.svg)](https://github.com/jolin-io/SimpleMatch.jl/actions)
+[![Coverage](https://codecov.io/gh/jolin-io/SimpleMatch.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/jolin-io/SimpleMatch.jl)
 
 Install with
 ```julia
