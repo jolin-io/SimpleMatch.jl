@@ -1,6 +1,5 @@
 module SimpleMatch
 export @match
-using Compat
 
 """
   matches arguments against locally created function and returns match
